@@ -1,24 +1,20 @@
-# README
+# URL Shortener
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this application you should be able to enter a url in a form and receive a shortened url as a random string
+When visiting this shortened url I should be redirected to the original url.
 
-Things you may want to cover:
+* Ruby 2.4.1
 
-* Ruby version
+* Google Chrome 59.0.3071.115
 
-* System dependencies
+* Directions
+Cd into folder.
+Launch rails console within the folder.
+Access http://localhost:3000/ on your browser.
+Enter a url in the form. 
+Receive a shortened url.
+Enter the shortened url on your browser.
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
