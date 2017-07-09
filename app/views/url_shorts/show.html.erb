@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Original url:</strong>
+  <%= @url_short.original_url %>
+</p>
+
+<p>
+  <strong>Short url:</strong>
+  http://localhost:3000/<%= @url_short.short_url %>
+</p>
+
+<%= link_to 'Edit', edit_url_short_path(@url_short) %> |
+<%= link_to 'Back', url_shorts_path %>
